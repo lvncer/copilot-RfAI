@@ -1,0 +1,42 @@
+{
+  // GitHub Copilot Chatのカスタマイズ設定
+  // 参考: https://code.visualstudio.com/docs/copilot/copilot-customization
+
+  // コード生成時にinstructionファイルを使う（デフォルトで有効）
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+
+  // コード生成用のカスタム指示ファイル
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "file": ".copilot-codeGeneration-instructions.md"
+    }
+  ],
+
+  // テストコード生成用のカスタム指示ファイル
+  "github.copilot.chat.testGeneration.instructions": [
+    {
+      "file": ".copilot-test-instructions.md"
+    }
+  ],
+
+  // コードレビュー用のカスタム指示ファイル
+  "github.copilot.chat.reviewSelection.instructions": [
+    {
+      "file": ".copilot-review-instructions.md"
+    }
+  ],
+
+  // コミットメッセージ生成用のカスタム指示ファイル
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": ".copilot-commit-message-instructions.md"
+    }
+  ],
+
+  // プルリクエストの説明文生成用のカスタム指示ファイル
+  "github.copilot.chat.pullRequestDescriptionGeneration.instructions": [
+    {
+      "file": ".copilot-pull-request-description-instructions.md"
+    }
+  ]
+}
